@@ -18,6 +18,11 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-war-plugin</artifactId>
+    <version>3.3.2</version> <!-- Use the latest stable version -->
+</plugin>
 
   <build>
     <finalName>maven-web</finalName>
